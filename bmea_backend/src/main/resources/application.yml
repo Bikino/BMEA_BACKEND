@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: bmea_backend
+
+  data:
+    mongodb:
+      uri: mongodb+srv://bikilde:qQosfcOhrRVDXnOw@cluster0.cllw5n4.mongodb.net/bmea01?retryWrites=true&w=majority
+      socket-timeout: 5000
+      connect-timeout: 5000
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          context:
+            config: DEBUG
+
+
+
+
